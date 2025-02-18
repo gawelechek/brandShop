@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './Form.module.scss';
 
 export const Form = () => {
@@ -6,7 +5,9 @@ export const Form = () => {
         <div className={`${styles.formSection} container`}>
         <h2 className={styles.formSection__title}>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
         <form className={styles.formSection__form}>
-            <input type="email" className={styles.formSection__email} placeholder='Enter your email address'/>
+            <label htmlFor="email">
+            <input type="email" className={styles.formSection__email} placeholder='Enter your email address' id='email'/>
+            </label>
             <button className={styles.formSection__btn}>Subscribe to Newsletter</button>
         </form>
         </div>
