@@ -5,7 +5,7 @@ export const Form = () => {
         <div className={`${styles.formSection} container`}>
         <h2 className={styles.formSection__title}>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
         <form className={styles.formSection__form}>
-            <label htmlFor="email">
+            <label htmlFor="email" className={styles.formSection__label}>
             <input type="email" className={styles.formSection__email} placeholder='Enter your email address' id='email'/>
             </label>
             <button className={styles.formSection__btn}>Subscribe to Newsletter</button>

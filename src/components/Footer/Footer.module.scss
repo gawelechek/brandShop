@@ -1,14 +1,91 @@
 .footer {
+  width: 100%;
+  background: #f0f0f0;
+  margin-top: auto;
+  align-self: flex-end;
+margin-top: 90px;
+  &__socialIcons {
+    display: flex;
+    gap: 12px;
+  }
+  &__flexBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+  }
+  &__logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 50%;
+    color: #000;
+    margin-bottom: 100px;
+  }
+  &__about {
+    max-width: 248px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  &__links li:first-child {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 112%;
+    letter-spacing: 0.19em;
+    color: #000;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+  }
+  &__links li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
+    transition: ease-in-out 0.2s;
+  }
+  &__links li:hover {
+    color: #000;
+  }
+  &__line {
     width: 100%;
-    background: #f0f0f0;
-    margin-top: auto;
-    align-self: flex-end;
-
-    &__flexBox {
-        
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  &__copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  &__CRpayment {
+    display: flex;
+    gap: 12px;
+    & li {
+        width: 46px;
+        height: 30px;
+        background: #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.22px solid #d6dce5;
     }
-    &__links {
-        list-style: none;
-
+    & li:nth-child(2) a {
+        height: 16px;
     }
+  }
+  &__CRtext {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.content {
+    margin-top: -50px;
 }

@@ -3,19 +3,21 @@
   font-size: 36px;
   color: #000;
 }
-
+.BrowesStyle {
+  margin-bottom: 80px;
+}
 .browesStyle {
-  max-width: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   padding: 64px;
   border-radius: 40px;
   background: #f0f0f0;
-  margin-bottom: 170px;
-  
+  &__mainTitle {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 64px;
+  }
   &__grid {
     display: grid;
     max-width: 100%;

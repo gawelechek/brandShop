@@ -48,8 +48,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --Satoshi: 'Satoshi', Arial, Helvetica, sans-serif;
-  --IntegralCF: 'Integral CF', Arial, Helvetica, sans-serif;
+  --first-family: 'Satoshi', Arial, Helvetica, sans-serif;
+  --second-family: 'Integral CF', Arial, Helvetica, sans-serif;
 }
 
 
@@ -64,7 +64,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--Satoshi);
+  font-family: var(--first-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -76,6 +76,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 a {

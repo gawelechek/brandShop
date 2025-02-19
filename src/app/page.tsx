@@ -1,4 +1,4 @@
-import { Footer } from '@/components/Footer/Footer';
+import { Footer } from '@/src/components/Footer/Footer';
 import { BrowesStyle } from '../ui/BrowesStyle/BrowesStyle'
 
 export default function Home() {
@@ -6,7 +6,6 @@ export default function Home() {
     <>
       <main >
         <BrowesStyle/>
-        {/* ...existing code... */}
       </main>
       <Footer/>
     </>
