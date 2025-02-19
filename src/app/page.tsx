@@ -1,12 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Footer } from '@/components/Footer/Footer';
+import { BrowesStyle } from '../ui/BrowesStyle/BrowesStyle'
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <>
+      <main >
+        <BrowesStyle/>
         {/* ...existing code... */}
       </main>
-    </div>
+      <Footer/>
+    </>
   );
 }
